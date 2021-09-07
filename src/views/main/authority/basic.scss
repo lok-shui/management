@@ -1,0 +1,181 @@
+.list-contain {
+  margin: 0 70px;
+
+  .operation-contain {
+    // display: flex;
+    // align-items: center;
+    // height: 72px;
+    // justify-content: space-between;
+    padding: 16px 0;
+
+    .search-contain {
+      // margin-left: 100px;
+
+      button {
+        margin-right: 10px;
+      }
+    }
+
+    form {
+      text-align: left;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.form-contain {
+  width: 1080px;
+  margin: auto;
+
+  .ta-form {
+    width: 860px;
+    margin-top: 40px;
+    text-align: left;
+
+    .btn-contain {
+      text-align: left;
+
+      button {
+        width: 75px;
+        margin-right: 12px;
+      }
+    }
+  }
+  // '服务列表'和'行业应用管理'的样式
+  .formStyle {
+    width: 1200px;
+    padding-top: 20px;
+    .ant-form-item {
+      display: flex;
+    }
+    .ant-row {
+      width: 1200px;
+    }
+    /deep/ .ant-table-title {
+      display: none;
+    }
+    /deep/ .ant-form-item-label {
+      width: 150px;
+      text-align: right;
+      margin-right: 15px;
+    }
+    /deep/ .ant-form-item-control-wrapper {
+      text-align: left;
+      flex: 4;
+      input {
+        max-width: 300px;
+      }
+    }
+    /deep/ .ant-table-tbody {
+      input {
+        min-width: 100%;
+      }
+    }
+    // 控制select的宽度
+    /deep/.ant-select {
+      width: 300px;
+      margin-right: 20px;
+    }
+    .modules {
+      margin-left: -150px;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: -40px;
+    }
+    .flexLine {
+      width: 1200px;
+      display: flex;
+      .item1 {
+        width: 500px;
+      }
+      .item2 {
+        width: 200px;
+      }
+    }
+    .versions {
+      display: flex;
+    }
+    .a-btn {
+      margin-right: 20px;
+    }
+    .editRow {
+      margin-right: 10px;
+    }
+    .uploadStyle {
+      width: 110px;
+      height: 110px;
+    }
+    .correlateTable {
+      margin-top: 15px;
+    }
+    .saveStyle {
+      margin: 20px auto 40px auto;
+      display: flex;
+      .save {
+        width: 200px;
+        margin-right: 20px;
+      }
+    }
+    .lineSave {
+      width: 1035px;
+      margin: 0 auto 0 165px;
+      button {
+        width: 100%;
+        font-weight: bold;
+        color: black;
+        letter-spacing: 4px;
+      }
+    }
+    .modalInput {
+      width: 500px;
+    }
+    .modifyBtn {
+      border: 1px solid #a8e4c7;
+      color: #31c37c;
+      padding: 0 2px;
+      margin-right: 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .confirmBtn {
+      margin-right: 20px;
+    }
+    /deep/ .notShow {
+      display: none;
+    }
+    /deep/ .cellWidth {
+      width: 160px;
+    }
+  }
+
+}
+// '行业应用'弹窗
+.applicationModal {
+  .ant-form-item {
+    display: flex;
+    /deep/ .ant-form-item-label {
+      width: 150px;
+      text-align: right;
+      margin-right: 15px;
+    }
+    /deep/ .ant-form-item-control-wrapper {
+      input {
+        width: 300px;
+      }
+      textarea {
+        width: 600px;
+      }
+      .gray {
+        line-height: 20px;
+      }
+    }
+
+  }
+}
+
+
+.label-select{
+  width: 200px;
+}
